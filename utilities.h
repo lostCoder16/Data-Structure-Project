@@ -52,11 +52,11 @@ void normal() {
 /*
  * Function to output the data as per requirements
  */
-void printWithIndentationError(char str[], int lineNo) {
+void printWithIndentationError(char str[], int lineNo, int spaces, int requiredSpaces) {
     red(1);
     printf("%3d ", lineNo);
     cyan(1);
-    printf("%s \033[1;31m : Indentation error Found\n", str);
+    printf("%s \033[1;31m : Indentation error Found (Required spaces as '%d' and found as '%d') \n", str, requiredSpaces, spaces);
     normal();
 }
 
