@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug"/>
+				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug"/>
+				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug"/>
+				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project">
-				<Option output="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/Project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug"/>
+				<Option output="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project/fast">
-				<Option output="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/Project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug"/>
+				<Option output="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/Project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,20 +69,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/3E86036E860325CD/College\ Works/DS/Data-Structure-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Project/main.c">
+		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/main.c">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Project/utilities.h">
+		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/temp.c">
 			<Option target="Project"/>
 		</Unit>
-		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Project/CMakeLists.txt">
+		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/utilities.h">
+			<Option target="Project"/>
+		</Unit>
+		<Unit filename="/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

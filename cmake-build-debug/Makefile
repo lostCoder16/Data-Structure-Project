@@ -68,10 +68,10 @@ RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/3E86036E860325CD/College Works/DS/Project"
+CMAKE_SOURCE_DIR = "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles" "/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles" "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -170,6 +170,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/main.c.s
 .PHONY : main.c.s
 
+temp.o: temp.c.o
+
+.PHONY : temp.o
+
+# target to build an object file
+temp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/temp.c.o
+.PHONY : temp.c.o
+
+temp.i: temp.c.i
+
+.PHONY : temp.i
+
+# target to preprocess a source file
+temp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/temp.c.i
+.PHONY : temp.c.i
+
+temp.s: temp.c.s
+
+.PHONY : temp.s
+
+# target to generate assembly for a file
+temp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/temp.c.s
+.PHONY : temp.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... temp.o"
+	@echo "... temp.i"
+	@echo "... temp.s"
 .PHONY : help
 
 

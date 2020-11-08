@@ -49,28 +49,10 @@ void normal() {
  * Functions to systemize various checks as per requirement
  * */
 
-int isWrong(char s[], int i, int spaces, int curSpaces) {
-    if (s[i] == '/' || s[i] == '*' || spaces == 0) return 0;
-    return spaces != curSpaces;
-}
-
-int shouldIncrease(char s[], int i, int n) {
-    for (; i < n; i++) {
-        if (s[i] == '"') return 0;
-        if (s[i] == '{') return 1;
-    }
-
-    return 0;
-}
-
-int shouldDecrease(char s[], int i) {
-    return s[i] == '}';
-}
-
 /*
  * Function to output the data as per requirements
  */
-void printWithError(char str[], int lineNo) {
+void printWithIndentationError(char str[], int lineNo) {
     red(1);
     printf("%3d ", lineNo);
     cyan(1);
@@ -78,24 +60,32 @@ void printWithError(char str[], int lineNo) {
     normal();
 }
 
+void printWithPaddingError(char str[], int lineNo) {
+    yellow(1);
+    printf("%3d ", lineNo);
+    yellow(1);
+    printf("%s \033[1;34m : Padding error Found\n", str);
+    normal();
+}
+
 void printWithoutError(char str[], int lineNo) {
     green(1);
     printf("%3d ", lineNo);
-    yellow(0);
+    normal();
     puts(str);
     normal();
 }
 
-void printFinalErrors(int error[], int noOfErrors) {
+void printIndentationReport(int error[], int noOfErrors) {
     printf("\n");
     if (!noOfErrors) {
         green(1);
         printf("\t\tThe file is completely intended\n");
     } else {
         red(1);
-        printf("\t\t'%d' Errors were found in the file\n", noOfErrors);
+        printf("\t\t'%d' Indentation Errors were found in the file\n", noOfErrors);
         cyan(1);
-        printf("\t\tThe line locations of the errors are : ");
+        printf("\t\tThe line locations of the indentation errors are : ");
         for (int i = 0; i < noOfErrors; i++) {
             printf("%d", error[i]);
             if (i != noOfErrors - 1) printf(", ");
@@ -105,6 +95,25 @@ void printFinalErrors(int error[], int noOfErrors) {
     }
 
     printf("\n");
+    printf("\n");
+}
+
+void printPaddingReport(int error[], int noOfErrors) {
+    printf("\n");
+    if (!noOfErrors) {
+        green(1);
+        printf("\t\tThe file has no padding errors\n");
+    } else {
+        red(1);
+        printf("\t\t'%d' Padding Errors were found in the file\n", noOfErrors);
+        cyan(1);
+        printf("\t\tThe line locations of the indentation errors are : ");
+        for (int i = 0; i < noOfErrors; i++) {
+            printf("%d", error[i]);
+            if (i != noOfErrors - 1) printf(", ");
+        }
+    }
+
     printf("\n");
     printf("\n");
 }

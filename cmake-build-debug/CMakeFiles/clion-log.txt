@@ -1,4 +1,4 @@
-/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/3E86036E860325CD/College Works/DS/Project"
+/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug
+-- Build files have been written to: /mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug

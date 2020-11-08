@@ -1,58 +1,48 @@
-/*
- * Data Structures Innovative Project Work
- * Group Members :
- * Prabhpreet Singh (2k19/CO/277)
- * Mohmmad Arshad (2k19/CO/235)
-*/
-
 #include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
 #include"utilities.h"
+#include"string.h"
 
-const int spacesPerTab = 8;
 const int N = (int) (2e5 + 10);
-int shift = 4;
-int curLine = 1;
-int noOfErrors = 0;
-int curSpaces = 0;
+int noOfSpacesInATab = 8;
 
 int main(int argc, char *argv[]) {
-    int errors[N];
-    char str[N];
-
-    if (argc == 3) {
-        shift = atoi(argv[2]);
-    }
+    int errors_padding[N];
+    int errors_indentation[N];
+    char s[N];
+    int requiredSpaces = 0;
+    int shift = 4;
+    int curLine = 1;
+    int noOfErrors_indentation = 0;
+    int noOfErrors_padding = 0;
 
     FILE *fptr = fopen(argv[1], "r");
-    while (fgets(str, N, fptr) != NULL) {
-        int terminationPoint = strcspn(str, "\n");
-        str[terminationPoint] = '\0';
-        int i = 0, spaces = 0;
-        for (; i < terminationPoint; i++) {
-            if (str[i] == ' ') spaces++;
-            else if (str[i] == '\t') spaces += spacesPerTab;
-            else break;
+    while (fgets(s, N, fptr) != NULL) {
+        int terminationPoint = strcspn(s, "\n");
+         s[terminationPoint] = '\0';
+        int spaces = 0;
+        int indentationError = 0;
+        for (int i = 0; i < terminationPoint; i++) {
+             if (s[i] == ' ') spaces++;
+            else if (s[i] == '\t') spaces += noOfSpacesInATab;
+            else {
+                 if (s[i] == '*' || s[i] == '/') break;
+                else if (s[i] == '}') requiredSpaces -= shift;
+                if (spaces != requiredSpaces) indentationError = 1;
+                break;
+            }
         }
 
-        if (shouldDecrease(str, i)) {
-            curSpaces -= shift;
-        }
 
-        if (isWrong(str, i, spaces, curSpaces)) {
-            errors[noOfErrors++] = curLine;
-            printWithError(str, curLine);
-        } else {
-            printWithoutError(str, curLine);
-        }
+        if (s[terminationPoint - 1] == '{') requiredSpaces += shift;
 
-        if (shouldIncrease(str, i, terminationPoint)) {
-             curSpaces += shift;
-        }
-
+        if (indentationError) {
+            errors_indentation[noOfErrors_indentation++] = curLine;
+            printWithIndentationError(s, curLine);
+        } else printWithoutError(s, curLine);
         curLine++;
     }
 
-    printFinalErrors(errors, noOfErrors);
+    printIndentationReport(errors_indentation, noOfErrors_indentation);
 }
+
+

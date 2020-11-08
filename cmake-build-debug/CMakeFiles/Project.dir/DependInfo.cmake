@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/3E86036E860325CD/College Works/DS/Project/main.c" "/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles/Project.dir/main.c.o"
+  "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/main.c" "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles/Project.dir/main.c.o"
+  "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/temp.c" "/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles/Project.dir/temp.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -1,3 +1,3 @@
-/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/3E86036E860325CD/College Works/DS/Project/cmake-build-debug/CMakeFiles/Project.dir
+/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/3E86036E860325CD/College Works/DS/Data-Structure-Project/cmake-build-debug/CMakeFiles/Project.dir
