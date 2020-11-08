@@ -6,14 +6,12 @@ const int N = (int) (2e5 + 10);
 int noOfSpacesInATab = 8;
 
 int main(int argc, char *argv[]) {
-    int errors_padding[N];
     int errors_indentation[N];
     char s[N];
     int requiredSpaces = 0;
     int shift = 4;
     int curLine = 1;
     int noOfErrors_indentation = 0;
-    int noOfErrors_padding = 0;
 
     FILE *fptr = fopen(argv[1], "r");
     while (fgets(s, N, fptr) != NULL) {
