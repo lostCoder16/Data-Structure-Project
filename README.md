@@ -14,3 +14,22 @@
 * For example if you want to check a **file name : test.txt** with the your **executable file name : project** and want to give the indentation checker a **predefined space width : 'x'**, then **run the command `./project text.txt x`** to get the output of the errors in your indentation.
 
 ## Demo
+![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/Demo.gif)
+
+## Different Use Cases 
+### 1. Sample normal use case on a testFile
+![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p2.png)
+
+### 2. Checking on a nested Indentation
+![]()
+
+### 3. Testing on a file with custom indent space
+![]()
+
+## Complexity Analysis
+### Time Complexity 
+ * Since we iterate over each character without doing any work for a specific time heavy work and hence we say that our program runs in linear time 
+ * Therefore the upper bound complexity of program is **O(n) where n stands for the no of characters in the file**
+### Space Complexity 
+ * We have two array (one integer type array storing errors and another as character type for printing the file)
+ * Therefore again we limit the upper bound the space complexity of our program as **O(n) where n stands for the no of characters in the file**
