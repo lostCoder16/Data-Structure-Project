@@ -46,10 +46,6 @@ void normal() {
 }
 
 /*
- * Functions to systemize various checks as per requirement
- * */
-
-/*
  * Function to output the data as per requirements
  */
 void printWelcome(char *s) {
@@ -66,15 +62,15 @@ void printWelcome(char *s) {
 void printWithIndentationError(char str[], int lineNo, int spaces, int requiredSpaces) {
     red(1);
     printf("%3d ", lineNo);
-    cyan(1);
-    printf("%s", str);
     yellow(1);
+    printf("%s", str);
+    cyan(1);
     int n  = strlen(str);
     for (int i = 0; i < 100 - n; i++) printf(" ");
     printf(" : Indentation error Found (Required spaces as '%d' and found as '%d') \n", requiredSpaces, spaces);
     normal();
 }
-
+/*
 void printWithPaddingError(char str[], int lineNo) {
     yellow(1);
     printf("%3d ", lineNo);
@@ -82,7 +78,7 @@ void printWithPaddingError(char str[], int lineNo) {
     printf("%s \033[1;34m : Padding error Found\n", str);
     normal();
 }
-
+*/
 void printWithoutError(char str[], int lineNo) {
     green(1);
     printf("%3d ", lineNo);
