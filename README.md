@@ -19,10 +19,10 @@
 
 ## Different Use Cases 
 ### 1. Sample normal use case on a testFile
-<img src="https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p2.png" alt="alt text" width="1000" height="500">
+<img src="https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p3.png" alt="alt text" width="1000" height="500">
 
 ### 2. Checking on a nested Indentation
-<img src="https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p3.png" alt="alt text" width="1000" height="500">
+<img src="https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p2.png" alt="alt text" width="1000" height="500">
 
 ### 3. Testing on a file with custom indent space
 `Note that this image has two different runs one without any custom indent space and other specifying a custom indent`
