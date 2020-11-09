@@ -12,3 +12,6 @@
 * Run command `gcc main.c -o 'your_preffered_name'` to make a executable with the 'your_preffered_name' (for eg : running command `gcc main.c -o project will` make a executable file with the name `project`
 * Run command  `./'your_executable_name' 'file_to_be_checked' 'intended width of a space if required'` to run the indentation check on the file provided to the program
 * For example if you want to check a **file name : test.txt** with the your **executable file name : project** and want to give the indentation checker a **predefined space width : 'x'**, then **run the command `./project text.txt x`** to get the output of the errors in your indentation.
+
+## Demo
+![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Demo.gif);
