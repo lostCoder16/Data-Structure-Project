@@ -66,7 +66,7 @@ void printWithIndentationError(char str[], int lineNo, int spaces, int requiredS
     printf("%s", str);
     cyan(1);
     int n  = strlen(str);
-    for (int i = 0; i < 100 - n; i++) printf(" ");
+    for (int i = 0; i < 50 - n; i++) printf(" ");
     printf(" : Indentation error Found (Required spaces as '%d' and found as '%d') \n", requiredSpaces, spaces);
     normal();
 }
