@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include"string.h"
 /*
  * Function to implement the output with colors
  * The below */
@@ -56,7 +56,11 @@ void printWithIndentationError(char str[], int lineNo, int spaces, int requiredS
     red(1);
     printf("%3d ", lineNo);
     cyan(1);
-    printf("%s \033[1;31m : Indentation error Found (Required spaces as '%d' and found as '%d') \n", str, requiredSpaces, spaces);
+    printf("%s", str);
+    yellow(1);
+    int n  = strlen(str);
+    for (int i = 0; i < 60 - n; i++) printf(" ");
+    printf(" : Indentation error Found (Required spaces as '%d' and found as '%d') \n", requiredSpaces, spaces);
     normal();
 }
 
