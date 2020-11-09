@@ -17,7 +17,7 @@
 ## Demo
 ![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/Demo.gif)
 
-## Different Use Cases 
+## Different Use Case
 
 ### 1. Checking on a nested Indentation
 <img src="https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p2.png" alt="alt text" width="1000" height="500">
