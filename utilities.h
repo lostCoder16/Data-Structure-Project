@@ -52,6 +52,17 @@ void normal() {
 /*
  * Function to output the data as per requirements
  */
+void printWelcome(char *s) {
+    printf("\n\n");
+    yellow(1);
+    printf("\t\t\tWelcome to the Indentation Checker - Data Structure Project\n");
+    green(1);
+    printf("\t\t Project Shared by : Prabhpreet Singh (2k19/CO/277) and Mohmmad Arshad (2k19/CO/235)\n");
+    cyan(1);
+    printf("Opened File : %s\n\n", s);
+    normal();
+}
+
 void printWithIndentationError(char str[], int lineNo, int spaces, int requiredSpaces) {
     red(1);
     printf("%3d ", lineNo);
@@ -59,7 +70,7 @@ void printWithIndentationError(char str[], int lineNo, int spaces, int requiredS
     printf("%s", str);
     yellow(1);
     int n  = strlen(str);
-    for (int i = 0; i < 60 - n; i++) printf(" ");
+    for (int i = 0; i < 100 - n; i++) printf(" ");
     printf(" : Indentation error Found (Required spaces as '%d' and found as '%d') \n", requiredSpaces, spaces);
     normal();
 }
@@ -89,10 +100,10 @@ void printIndentationReport(int error[], int noOfErrors) {
         red(1);
         printf("\t\t'%d' Indentation Errors were found in the file\n", noOfErrors);
         cyan(1);
-        printf("\t\tThe line locations of the indentation errors are : ");
+        printf("\t\tThe line locations of the indentation errors are : \n");
         for (int i = 0; i < noOfErrors; i++) {
-            printf("%d", error[i]);
-            if (i != noOfErrors - 1) printf(", ");
+            printf("\t\t   \033[0;33m%d : Error at line %d  ", i + 1, error[i]);
+            if ((i + 1) % 4 == 0) printf("\n");
         }
 
         normal();
