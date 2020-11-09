@@ -14,4 +14,3 @@
 * For example if you want to check a **file name : test.txt** with the your **executable file name : project** and want to give the indentation checker a **predefined space width : 'x'**, then **run the command `./project text.txt x`** to get the output of the errors in your indentation.
 
 ## Demo
-![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Demo.gif);
