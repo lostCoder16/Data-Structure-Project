@@ -13,6 +13,7 @@
 
 ## Algorithmic Implementation
 * This implementation is based on counting the no of prefix spaces in a line
+* We use file handling to open the file that we want to check and maintain a pointer to the current location in the file.
 * We maintain a **required_spaces** variable which tells us that how much spaces should be present in the current line 
 * Every time a we enter a function or if/while/for conditions (line closes with a **{**) we increment this variable by the intended amount and everytime we exit a function or while/if/for conditions (a line starts with a **}** bracket) we decrement this amount as same.
 * Therefore, we count the prefix spaces in the current line and if **prefix_spaces are not equal to required_spaces** then we say this line has a error else we say this line is fine and print it accordinly
