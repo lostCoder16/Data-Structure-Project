@@ -1,4 +1,5 @@
-# Data-Structure-Project
+# Indentation Checker
+## Data-Structure-Project
 * This project is a implementation of a **Indentation checker** which check for valid indentation in a input file.
 * This project is with the guidlines for the **Innovative Project work** for the **Subject - Data Structure** in **III semester**
 * This project is shared by `Prabhpreet Singh - 2K19/CO/277` and  `Mohmmad Arshad - 2K19/CO/235`
