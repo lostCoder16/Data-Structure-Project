@@ -15,6 +15,13 @@
 * `Note that the file you want to check should be in the same directory as of the executable file`
 * For example if you want to check a **file name : test.txt** with the your **executable file name : project** and want to give the indentation checker a **predefined space width : 'x'**, then **run the command `./project text.txt x`** to get the output of the errors in your indentation.
 
+## Algorithmic Implementation
+* This implementation is based on counting the no of prefix spaces in a line
+* We maintain a **required_spaces** variable which tells us that how much spaces should be present in the current line 
+* Every time a line closes with a **{** we increment this variable by the intended amount and everytime a line starts with a **}** bracket we decrement this amount as same.
+* Therefore, we count the prefix spaces in the current line and if **prefix_spaces are not equal to required_spaces** then we say this line has a error else we say this line is fine and print it accordinly
+* At the end, the program notifies the user of a list of lines **that encountered the indentation error** while check.
+
 ## Demo
 ![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/Demo.gif)
 
