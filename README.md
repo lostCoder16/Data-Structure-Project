@@ -11,6 +11,13 @@
 ## Demo
 ![](https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/Demo.gif)
 
+## Algorithmic Implementation
+* This implementation is based on counting the no of prefix spaces in a line
+* We maintain a **required_spaces** variable which tells us that how much spaces should be present in the current line 
+* Every time a line closes with a **{** we increment this variable by the intended amount and everytime a line starts with a **}** bracket we decrement this amount as same.
+* Therefore, we count the prefix spaces in the current line and if **prefix_spaces are not equal to required_spaces** then we say this line has a error else we say this line is fine and print it accordinly
+* At the end, the program notifies the user of a list of lines **that encountered the indentation error** while check.
+
 ## Different Use Case
 
 ### 1. Checking on a nested Indentation
@@ -20,13 +27,6 @@
 `Note that this image has two different runs one without any custom indent space and other specifying a custom indent`
 
 <img src="https://github.com/prabh1601/Data-Structure-Project/blob/main/Shots/p1.png" alt="alt text" width="1000" height="500">
-
-## Algorithmic Implementation
-* This implementation is based on counting the no of prefix spaces in a line
-* We maintain a **required_spaces** variable which tells us that how much spaces should be present in the current line 
-* Every time a line closes with a **{** we increment this variable by the intended amount and everytime a line starts with a **}** bracket we decrement this amount as same.
-* Therefore, we count the prefix spaces in the current line and if **prefix_spaces are not equal to required_spaces** then we say this line has a error else we say this line is fine and print it accordinly
-* At the end, the program notifies the user of a list of lines **that encountered the indentation error** while check.
 
 ## Testing the Project 
 * Clone this repository using command `git clone https://github.com/prabh1601/Data-Structure-Project.git` or download this repository [using this link](https://github.com/prabh1601/Data-Structure-Project/archive/main.zip)
